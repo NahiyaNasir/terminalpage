@@ -1,8 +1,104 @@
 body{
     font-family: "Sora", sans-serif;
     font-style: normal;
+     
+    font-weight: 400;
+}
+body p{
+    color: #52525A;
+}
+*{
+margin: 0;
+padding: 0;
 }
 .container{
-    max-width: 75%;
-    margin: 0;
+    max-width: 1280px;
+    margin:  0 auto;
+    height: 100vh;
+    box-sizing: border-box;
+   /* background-color: #D4D4D8;*/
+   background-color: #FAFAF9;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.img{
+ 
+ background-color: #F5C044;
+ border-radius: 50%;
+color:wheat;
+ padding: 10px;
+ margin-bottom: 5px;
+
+}
+li{
+    list-style: none;
+    margin-top: 15px;
+}
+.check{
+    background-color:#4CA154 ;
+    color: white;
+    border-radius: 50PX;
+    margin-right: 10px;
+}
+ul >li {
+    margin-left: 15px;
+    
+}
+#img1  p{
+  margin-top: 10px;
+  font-size: 1.25rem;
+  padding: 5px;
+  
+}
+#img1{
+    margin-left: 5px;
+    margin-top: 5px;
+   
+}
+.card1{
+    background-color:  #FFFFFF;
+    height: 120px;
+    border-radius: 15px;
+   width: 300px;
+   padding: 20px;
+   position: relative;
+   margin-bottom: 50px;
+left:25px;
+box-shadow: 10px 5px 5px #52525A;
+}
+.card1 h3{
+ margin-top: 10px;
+}
+.card1-headding{
+     margin-top: 10px;
+}
+.card1-dec{
+    margin-top: 10px;
+}
+.card2{
+    background-color:  #FFFFFF;
+    height: 120px;
+    border-radius: 15px;
+   width: 300px;
+   padding: 20px;
+   position: relative;
+   right: 50px;
+   box-shadow:  10px 5px 5px   #52525A;
+}
+.card2 h4{
+    margin-top: 10px;
+
+
+}
+.card2-dec{
+    margin-top: 10px;
+}
+.star{
+    color: #F5C044;
+}
+.stari{
+            color:#D4D4D8;              
 }
